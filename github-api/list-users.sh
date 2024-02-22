@@ -3,8 +3,6 @@
 # GitHub API URL
 API_URL="https://api.github.com"
 
-helper
-
 # GitHub username and personal access token
 USERNAME=$username
 TOKEN=$token
@@ -43,6 +41,8 @@ if[ $# -ne expected_cmd_args];then
 ehco "Please execute the script with required cmd args"
 fi
 }
+
+helper
 
 # Main script
 
